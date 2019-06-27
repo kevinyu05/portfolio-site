@@ -13,10 +13,10 @@ class Landing extends Component {
               className="avatar-img"
             /> 
             <div className="banner-text">
-               <h1>Full Stack Developer</h1>
+              <h1>Full Stack Developer</h1>
 
               <hr/>
-              <p>HTML/CSS | JavaScript | React | Ruby | Rails | NodeJS </p> 
+              <p>HTML/CSS | JavaScript | React | Ruby | Rails | NodeJS | PostgreSQL</p> 
           
               <div className="social-links">
                 
@@ -30,17 +30,19 @@ class Landing extends Component {
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
-                {/* FreeCodeCamp */} 
-                <a href="www.google.com" rel="noopener noreferrer" target="_blank">
-                  <i class="fa fa-free-code-camp" aria-hidden="true"></i>
-                </a>
               
                 {/* YouTube */} 
                 <a href="www.google.com" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
 
+                {/* FreeCodeCamp */}
+                <a href="www.google.com" rel="noopener noreferrer" target="_blank">
+                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                </a>
+
               </div>  
+
             </div>
           </Cell>
         </Grid>
